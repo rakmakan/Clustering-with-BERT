@@ -5,9 +5,6 @@
 ### Abstract : 
 Powerful document clustering models are important as they are able to efficiently process large sets of documents. These models can be useful in many fields, including general research. Searching through large corpora of publications can be a slow and tedious task; such models can reduce the time of this significantly. We investigated different variations of a pre-trained BERT model to find which is best able to produce word embeddings to represent documents within a larger corpus. These embeddings are reduced in dimensionality using PCA and clustered with K-Means in order to gain insight into which model is able to best differentiate the topics within a corpus. It was found that out of the tested BERT variations, SBERT was the best model for this task.
 
-### Developed by:
-* Rakshit Makan
-
 
 
 ### Code Implementations:
